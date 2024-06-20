@@ -1,0 +1,35 @@
+# Created by https://www.toptal.com/developers/gitignore/api/text,venv,dotenv
+# Edit at https://www.toptal.com/developers/gitignore?templates=text,venv,dotenv
+
+### dotenv ###
+.env
+
+### Text ###
+*.doc
+*.docx
+*.log
+*.msg
+*.pages
+*.rtf
+# *.txt
+*.wpd
+*.wps
+
+.rasa
+models/
+__pycache__/
+### venv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
+# End of https://www.toptal.com/developers/gitignore/api/text,venv,dotenv
